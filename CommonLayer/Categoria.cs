@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace commonLayer
 {
-    internal class Categoria
+    public class Categoria
     {
+        public int CategoriaID { get; set; }
+        public string Nombre { get; set; }
     }
 }
